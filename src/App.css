@@ -1,0 +1,15 @@
+.App {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.App-logo {
+  height: 3rem;
+  pointer-events: none;
+  display: block;
+  margin: 0 auto;
+}
