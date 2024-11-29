@@ -102,17 +102,6 @@ Usage Instructions
     Navigate through pages using the pagination controls at the bottom of the table.
     Change the number of rows per page using the dropdown.
 
-Project Structure
-
-src/
-├── assets/                # Contains icons (e.g., warning, activate, deactivate)
-├── components/
-│   ├── CameraTable/       # Main table component
-│       ├── CameraTable.jsx
-│       ├── CameraTable.css
-├── App.js                 # Main app entry point
-├── index.js               # React DOM rendering
-├── styles/                # Global styles (if applicable)
 
 Key Components
 1. CameraTable
