@@ -458,7 +458,6 @@ const CameraTable = () => {
 
           <div className="pagination-controls">
             <div className="rows-per-page">
-              <label htmlFor="rows-per-page">Rows per page:</label>
               <select
                 id="rows-per-page"
                 value={rowsPerPage}
@@ -494,7 +493,7 @@ const CameraTable = () => {
               <button
                 onClick={handleNextPage}
                 disabled={
-                  currentPage === Math.ceil(filteredData.length / rowsPerPage)
+                  currentPage === Math.ceil(filteredData.length / rowsPerPage) || filteredData.length === 0
                 }
                 aria-label="Next Page"
               >
